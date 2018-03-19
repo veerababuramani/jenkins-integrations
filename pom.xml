@@ -18,20 +18,8 @@
   <build>
     <finalName>raviweb</finalName>
   </build>
-  <repositories>
-        <repository>
-          <id>RaviGroupRepo</id>
-          <url>http://35.184.60.117:8081/nexus/content/groups/RaviGroupRepo/</url>
-        </repository>
+  <repositories>  
    </repositories>
    <distributionManagement>
-        <snapshotRepository>
-            <id>RavisnapRepo</id>
-            <url>http://35.231.19.10:8081/nexus/content/repositories/snapshots/</url>
-        </snapshotRepository>
-        <repository>
-            <id>RaviReleaserepo</id>
-	    <url>http://35.231.19.10:8081/nexus/content/repositories/releases/</url>
-        </repository>
     </distributionManagement> 
 </project>
